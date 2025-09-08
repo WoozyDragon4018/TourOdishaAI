@@ -1,0 +1,16 @@
+# Core database and numerical tools
+sqlite3  # Built-in with Python, no need to install separately
+numpy
+
+# Semantic search
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+
+# Local LLM (Phi-3 Mini or similar)
+transformers==4.44.2
+accelerate==0.34.2
+torch  # Will auto-select CPU or GPU version based on your system
+
+# Optional: for CLI or future UI
+rich  # For pretty terminal output (optional)
+streamlit  # If you want to build a browser UI later
